@@ -1,3 +1,0 @@
-$url = "https://raw.githubusercontent.com/dy4zz/tags/main/dog_nerd"
-$content = Invoke-RestMethod -Uri $url
-$content | Set-Clipboard
