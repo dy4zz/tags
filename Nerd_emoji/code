@@ -1,0 +1,3 @@
+$url = "https://raw.githubusercontent.com/dy4zz/tags/main/Nerd_emoji/nerd_emoji"
+$content = Invoke-RestMethod -Uri $url
+$content | Set-Clipboard
