@@ -1,0 +1,3 @@
+url = "https://raw.githubusercontent.com/dy4zz/tags/main/middle_finger/middle_finger"
+$content = Invoke-RestMethod -Uri $url
+$content | Set-Clipboard
